@@ -16,8 +16,10 @@ const SettingsBar = () => {
 
       <div className="flex flex-col items-center gap-5">
         <IoSettingsOutline className="text-2xl cursor-pointer duration-300 hover:text-custom_bg_three" />
-        <div className="p-1">
-          <img src={sumon} alt="User" className="rounded-full w-10 mb-5" />
+        <div className="avatar online mb-5">
+          <div className="w-7 lg:w-12">
+            <img src={sumon} alt="User" className="rounded-full" />
+          </div>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { IoFilter } from "react-icons/io5";
 import { LuSquarePen } from "react-icons/lu";
 import SearchBar from "./SearchBar";
+import SingleUser from "./SingleUser";
 
 const MainLeft = () => {
   return (
@@ -14,6 +15,10 @@ const MainLeft = () => {
         </div>
       </div>
       <SearchBar />
+      <SingleUser />
+      <SingleUser />
+      <SingleUser />
+      <SingleUser />
     </div>
   );
 };
